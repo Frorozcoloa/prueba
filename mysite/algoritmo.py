@@ -2,7 +2,7 @@
 
 from itertools import chain, combinations
 from num.models import Num
-import json
+import pandas as pd
 
 def powerset(list_name):
     s = list(list_name)
